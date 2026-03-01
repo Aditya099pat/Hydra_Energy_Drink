@@ -1,5 +1,8 @@
-Welcome to my website repo
+# Hydra Energy Drink
 
-Initial scaffold/design generated with Lovable, then customized and developed further by me.
+A bold, modern landing page for an energy drink brand — built with React, Vite, Tailwind CSS, and TypeScript.
 
-open the integrated terminal and type npm run dev to start the local host server
+## Run locally
+```bash
+npm install
+npm run dev
