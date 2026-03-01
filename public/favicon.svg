@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background -->
+  <rect width="128" height="128" rx="28" fill="#0B0B0F"/>
+  
+  <!-- Teal top bar (matches your navbar vibe) -->
+  <rect x="10" y="12" width="108" height="18" rx="9" fill="#21B6B1"/>
+
+  <!-- Hydra "H" -->
+  <g fill="#FFFFFF">
+    <rect x="28" y="42" width="14" height="56" rx="7"/>
+    <rect x="86" y="42" width="14" height="56" rx="7"/>
+    <rect x="42" y="66" width="44" height="14" rx="7"/>
+  </g>
+
+  <!-- Lightning bolt accent -->
+  <path d="M78 44 L60 72 H74 L56 104 L92 68 H78 Z" fill="#B14CFF"/>
+  
+  <!-- Subtle glow -->
+  <circle cx="64" cy="76" r="46" fill="none" stroke="#B14CFF" stroke-opacity="0.18" stroke-width="10"/>
+</svg>

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 282 60% 45%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 60%;
+
+    --accent: 180 80% 45%;
+    --accent-foreground: 0 0% 5%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 282 60% 45%;
+
+    --radius: 0.5rem;
+
+    /* Brand tokens */
+    --teal: 180 70% 42%;
+    --orange: 38 95% 50%;
+    --grape: 282 60% 45%;
+    --grape-light: 282 55% 65%;
+    --grape-vivid: 290 80% 55%;
+    --dark: 0 0% 4%;
+    --near-black: 230 15% 8%;
+
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 282 60% 45%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 282 60% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Barlow', sans-serif;
+    overflow-x: hidden;
+  }
+  h1, h2, h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .font-body {
+    font-family: 'Barlow', sans-serif;
+  }
+  .text-gradient-grape {
+    background: linear-gradient(135deg, hsl(var(--grape-vivid)), hsl(var(--grape-light)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .bg-grape {
+    background-color: hsl(var(--grape));
+  }
+  .bg-teal {
+    background-color: hsl(var(--teal));
+  }
+  .bg-orange-brand {
+    background-color: hsl(var(--orange));
+  }
+  .text-teal {
+    color: hsl(var(--teal));
+  }
+  .text-orange-brand {
+    color: hsl(var(--orange));
+  }
+  .text-grape {
+    color: hsl(var(--grape-light));
+  }
+  .border-grape {
+    border-color: hsl(var(--grape));
+  }
+  .marquee-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .marquee-track {
+    display: inline-flex;
+    animation: marquee 18s linear infinite;
+  }
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .nutrition-border {
+    border: 3px solid hsl(var(--foreground));
+  }
+  .wave-clip {
+    clip-path: ellipse(55% 100% at 50% 100%);
+  }
+}
