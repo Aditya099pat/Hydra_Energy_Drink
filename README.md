@@ -101,3 +101,10 @@ HydraEnergy/
 ├── tsconfig.node.json
 ├── vite.config.ts
 └── README.md
+
+## How to Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Aditya099pat/Hydra_Energy_Drink.git
