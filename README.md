@@ -29,25 +29,6 @@ The main focus of this project is:
 - Product-focused landing page experience
 - Front-end development using React, TypeScript, Vite, and Tailwind CSS
 
-## Website Screenshots
-
-### Homepage Walkthrough
-
-Homepage Hero Section  
-Homepage Product Showcase  
-Homepage Features Section  
-Homepage Call-to-Action Section  
-Homepage Footer  
-
-<!-- Add screenshots after placing images inside the screenshots folder -->
-
-<!--
-![Homepage Hero Section](screenshots/Homepage1.png)
-![Homepage Product Showcase](screenshots/Homepage2.png)
-![Homepage Features Section](screenshots/Homepage3.png)
-![Homepage CTA and Footer](screenshots/Homepage4.png)
--->
-
 ## Features
 
 - Modern energy drink landing page design
@@ -136,3 +117,21 @@ npm run dev
 ```bash
 http://localhost:8080/
 ```
+
+## Website Screenshots
+
+![Hero Section](screenshots/1.png)
+![Hero Section](screenshots/2.png)
+![Hero Section](screenshots/3.png)
+![Hero Section](screenshots/4.png)
+![Hero Section](screenshots/5.png)
+![Hero Section](screenshots/6.png)
+![Hero Section](screenshots/7.png)
+![Hero Section](screenshots/8.png)
+![Hero Section](screenshots/9.png)
+![Hero Section](screenshots/10.png)
+![Hero Section](screenshots/11.png)
+![Hero Section](screenshots/12.png)
+![Hero Section](screenshots/13.png)
+![Hero Section](screenshots/14.png)
+![Hero Section](screenshots/15.png)
