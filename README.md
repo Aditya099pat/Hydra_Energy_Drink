@@ -1,20 +1,103 @@
-# Hydra Energy Drink
+# Hydra Energy Drink — Modern Energy Drink Landing Page
 
-A bold, modern landing page for an energy drink brand — built with React, Vite, Tailwind CSS, and TypeScript.
+Hydra Energy Drink is a bold, modern landing page for an energy drink brand built using React, TypeScript, Vite, Tailwind CSS, and shadcn/ui.
 
-<img width="1906" height="1034" alt="image" src="https://github.com/user-attachments/assets/ae8dc5e9-e400-42dd-9ef4-41a86d360827" />
+It provides a premium product showcase experience through a polished dark interface, energetic branding, responsive sections, modern UI components, smooth layout structure, and a clean front-end architecture.
 
-<img width="1910" height="1031" alt="image" src="https://github.com/user-attachments/assets/4ed8303c-8de4-4307-a489-d801712e1dae" />
+The project is designed as a front-end brand website inspired by modern beverage, fitness, lifestyle, and product marketing websites.
 
-<img width="1910" height="1033" alt="image" src="https://github.com/user-attachments/assets/bdb4cd4c-53ec-4222-803a-d035338b60cb" />
+## Live Preview
 
-<img width="1899" height="1030" alt="image" src="https://github.com/user-attachments/assets/73d8640c-6935-45f9-a55d-c2b70df7028b" />
+https://aditya099pat.github.io/Hydra_Energy_Drink/
 
-<img width="1891" height="957" alt="image" src="https://github.com/user-attachments/assets/0a32f960-10ae-4e60-b967-44018ed75cbb" />
+## Project Overview
 
-<img width="1897" height="1029" alt="image" src="https://github.com/user-attachments/assets/9fdfa160-ef02-4cca-84b4-0a3b00dc1c84" />
+Hydra Energy Drink allows users to explore a visually engaging energy drink brand website through a modern and responsive interface.
 
-## Run locally
-```bash
-npm install
-npm run dev
+The website includes a homepage with a strong hero section, product-focused content, brand messaging, feature highlights, call-to-action sections, and a clean layout suitable for a real-world product landing page.
+
+The main focus of this project is:
+
+- Clean modern UI design
+- Bold energy drink branding
+- Premium dark visual presentation
+- Responsive front-end layout
+- Reusable React component structure
+- Smooth page organization
+- Product-focused landing page experience
+- Front-end development using React, TypeScript, Vite, and Tailwind CSS
+
+## Website Screenshots
+
+### Homepage Walkthrough
+
+Homepage Hero Section  
+Homepage Product Showcase  
+Homepage Features Section  
+Homepage Call-to-Action Section  
+Homepage Footer  
+
+<!-- Add screenshots after placing images inside the screenshots folder -->
+
+<!--
+![Homepage Hero Section](screenshots/Homepage1.png)
+![Homepage Product Showcase](screenshots/Homepage2.png)
+![Homepage Features Section](screenshots/Homepage3.png)
+![Homepage CTA and Footer](screenshots/Homepage4.png)
+-->
+
+## Features
+
+- Modern energy drink landing page design
+- Bold dark interface with energetic visual styling
+- Product-focused hero section
+- Responsive layout for different screen sizes
+- Smooth and professional page structure
+- Reusable React components
+- Tailwind CSS utility-based styling
+- shadcn/ui component integration
+- Lucide React icon support
+- Fast Vite development environment
+- TypeScript-based project structure
+- Clean navigation and call-to-action sections
+- GitHub Pages deployment support
+
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
+- GitHub Pages
+
+## Project Structure
+
+```text
+HydraEnergy/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   ├── pages/
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+│
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+├── vite.config.ts
+└── README.md
