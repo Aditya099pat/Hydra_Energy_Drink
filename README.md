@@ -6,13 +6,13 @@ It provides a premium product showcase experience through a polished dark interf
 
 The project is designed as a front-end brand website inspired by modern beverage, fitness, lifestyle, and product marketing websites.
 
-## Live Preview
+# Live Preview
 
 ```text
 https://aditya099pat.github.io/Hydra_Energy_Drink/
 ```
 
-## Project Overview
+# Project Overview
 
 Hydra Energy Drink allows users to explore a visually engaging energy drink brand website through a modern and responsive interface.
 
@@ -29,7 +29,7 @@ The main focus of this project is:
 - Product-focused landing page experience
 - Front-end development using React, TypeScript, Vite, and Tailwind CSS
 
-## Features
+# Features
 
 - Modern energy drink landing page design
 - Bold dark interface with energetic visual styling
@@ -45,7 +45,7 @@ The main focus of this project is:
 - Clean navigation and call-to-action sections
 - GitHub Pages deployment support
 
-## Tech Stack
+# Tech Stack
 
 - React
 - TypeScript
@@ -55,7 +55,7 @@ The main focus of this project is:
 - Lucide React
 - GitHub Pages
 
-## Project Structure
+# Project Structure
 
 ```text
 HydraEnergy/
@@ -86,7 +86,7 @@ HydraEnergy/
 └── README.md
 ```
 
-## How to Run Locally
+# How to Run Locally
 
 ### 1. Clone the repository
 
@@ -118,7 +118,7 @@ npm run dev
 http://localhost:8080/
 ```
 
-## Website Screenshots
+# Website Screenshots
 
 ![Hero Section](screenshots/1.png)
 ![Hero Section](screenshots/2.png)
