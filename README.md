@@ -8,7 +8,9 @@ The project is designed as a front-end brand website inspired by modern beverage
 
 ## Live Preview
 
+```text
 https://aditya099pat.github.io/Hydra_Energy_Drink/
+```
 
 ## Project Overview
 
@@ -101,6 +103,7 @@ HydraEnergy/
 ├── tsconfig.node.json
 ├── vite.config.ts
 └── README.md
+```
 
 ## How to Run Locally
 
@@ -108,3 +111,28 @@ HydraEnergy/
 
 ```bash
 git clone https://github.com/Aditya099pat/Hydra_Energy_Drink.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd Hydra_Energy_Drink
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open the website in your browser
+
+```bash
+http://localhost:8080/
+```
